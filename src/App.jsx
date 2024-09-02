@@ -1,4 +1,4 @@
-import React from 'react'
+
 import {Routes, Route} from "react-router-dom";
 import Header from './Component/Header';
 import Banner from './Home/Banner';
@@ -12,6 +12,7 @@ const App = () => {
     {/* <Footer/>  */}
 
     </>
+
   )
 }
 
