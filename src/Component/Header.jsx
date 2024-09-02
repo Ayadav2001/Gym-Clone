@@ -26,7 +26,6 @@ const Header = () => {
         </div>
         <div className="flex items-center space-x-4">
           <a href="#" className="hover:text-teal-400">Login</a>
-          <a href="#" className="hover:text-teal-400">Sign Up</a>
         </div>
       </div>
 
@@ -42,11 +41,11 @@ const Header = () => {
             <FaHome />
             <span>Home</span>
           </a>
-          <a href="#" className="flex items-center space-x-1 hover:text-teal-400">
+          <a href="/About" className="flex items-center space-x-1 hover:text-teal-400">
             <FaInfoCircle />
             <span>About</span>
           </a>
-          <a href="#" className="flex items-center space-x-1 hover:text-teal-400">
+          <a href="/Service" className="flex items-center space-x-1 hover:text-teal-400">
             <FaConciergeBell />
             <span>Services</span>
           </a>

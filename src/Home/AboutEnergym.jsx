@@ -4,7 +4,7 @@ import Energym from '../assets/About.jpg';
 
 const AboutEnergym = () => {
   return (
-    <section className="bg-white py-16 lg:py-24">
+    <section className="bg-gray-900 py-16 lg:py-24">
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Image Section */}
@@ -18,10 +18,10 @@ const AboutEnergym = () => {
 
           {/* Content Section */}
           <div className="order-1 lg:order-2 text-center lg:text-left">
-            <h2 className="text-3xl lg:text-5xl font-bold text-gray-800 mb-6">
+            <h2 className="text-3xl lg:text-5xl font-bold text-white mb-6">
               Transform Your Body & Mind
             </h2>
-            <p className="text-base lg:text-lg text-gray-600 mb-8">
+            <p className="text-base lg:text-lg text-gray-400 mb-8">
               Discover the ultimate fitness destination with Energym. Our modern facilities, expert trainers, and personalized programs are designed to help you achieve your health and fitness goals.
             </p>
             <div className="flex justify-center lg:justify-start space-x-4">

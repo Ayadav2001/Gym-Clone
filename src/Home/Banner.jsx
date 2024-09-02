@@ -6,6 +6,7 @@ import Gym3 from '../assets/gym3.jpg';
 import AboutEnergym from './AboutEnergym';
 import OurServices from './OurService';
 import FeaturesSection from './FeaturesSection';
+import TestimonialsSection from './TestinomialSection';
 
 const Banner = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -101,6 +102,7 @@ const Banner = () => {
     <AboutEnergym/>
     <OurServices/>
     <FeaturesSection/>
+    <TestimonialsSection/>
     </div>
   );
 };
