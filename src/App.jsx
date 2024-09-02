@@ -1,10 +1,17 @@
 import React from 'react'
-
+import {Routes, Route} from "react-router-dom";
+import Header from './Component/Header';
+import Banner from './Home/Banner';
 const App = () => {
   return (
-    <div>
-      <h1 className='bg-slate-700'>hello</h1>
-    </div>
+    <>
+      <Header/> 
+    <Routes>
+      <Route path="/" element={<Banner />}/>
+    </Routes>
+    {/* <Footer/>  */}
+
+    </>
   )
 }
 
