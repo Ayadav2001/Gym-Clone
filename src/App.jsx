@@ -1,10 +1,11 @@
 import React from 'react'
+import Services from './component/Services'
 
 const App = () => {
   return (
-    <div>
-      <h1 className='bg-slate-700'>hello</h1>
-    </div>
+    <>
+    <Services />
+    </>
   )
 }
 
