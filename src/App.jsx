@@ -1,10 +1,11 @@
 import React from 'react'
+import EnergymWebsite from './assets/components/pages/About'
 
 const App = () => {
   return (
-    <div>
-      <h1 className='bg-slate-700'>hello</h1>
-    </div>
+    <>
+      <EnergymWebsite/>
+    </>
   )
 }
 
